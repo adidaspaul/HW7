@@ -1,6 +1,7 @@
 package hw_7;
 
 class PrintFigure implements Print {
+    
     private final Shape shape;
 
     public PrintFigure(Shape shape) {
@@ -13,4 +14,5 @@ class PrintFigure implements Print {
 
         shape.printName();
     }
+
 }
